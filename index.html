@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>猫猫百科</title>
+    <link rel="stylesheet" href="1.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+        .clear:after {
+            content: '';
+            display: block;
+            height: 0;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="form2">
+        <p>账号:<input type="text" name="usersname" /></p>
+        <p>密码:<input type="text" name="password" /></p>
+        <p><input type="submit" value="登录" id="submit" /></p>
+    </div>
+    <div class="header">
+         <div class="container clear">
+            <img src="images/logo.png" alt="logo图" class="logo" />
+            <ul class="nav clear">             
+                <li><a href="#" id="login">登录</a></li>
+            </ul>
+            
+            <ul class="nav2 clear">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">猫咪种类</a></li>
+                <li><a href="#">喂养知识</a></li>
+                <li><a href="#">常见疾病</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+            <form class="form clear">
+                <input type="text" placeholder="搜索" class="search" />
+                <input type="button" class="submit" />
+            </form>
+        </div>
+    </div>
+    <div id="banner">
+        <div id="slider">
+            <div class="slide"><img src="images/banner.png" alt=""></div>
+            <div class="slide"><img src="images/banner1.png" alt=""></div>
+            <div class="slide"><img src="images/banner3.jpg" alt=""></div>
+            <div class="slide"><img src="images/banner4.jpg" alt=""></div>
+        </div>
+        <!-- <span id="left"><img src="images/prev.png" alt="prev" id="prev" /></span>
+        <span id="right"><img src="images/next.png" alt="next" id="next" /></span> -->
+    </div>
+    <div class="title">
+        <p>猫咪品种大全</p>
+    </div>
+    <div class="content clear">
+        <ul class="nav3">
+            <li>
+                <img src="images/buou.png" alt="" title="布偶猫" class="lis">
+                <br />
+                <a href="">布偶猫</a>
+                <p>祖籍：美国<br>寿命：12-15年<br>性格：温顺好静、对人友善<br>易患病：HCM心肌肥大症<br>价格：宠物级:8000-18000 赛级: 18000-25000</p>
+            </li>
+            <li>
+                <img src="images/xianluo.png" alt="" class="lis" title="暹罗猫">
+                <br />
+                <a href="">暹罗猫</a>
+                <p>祖籍：泰国<br>寿命：10-18年<br>性格：刚烈好动，机智灵活，好奇心强<br>易患病：后腿虚弱<br>价格：500-1500</p>
+            </li>
+            <li>
+                <img src="images/lihua.png" alt="" class="lis" title="中华狸花猫">
+                <br />
+                <a href="">中华狸花猫</a>
+                <p>祖籍：中国<br>寿命：10-15年<br>性格：性格沉稳，感情丰富<br>易患病：消化系统与眼部的疾病<br>价格：2000--5000</p>
+            </li>
+            <li>
+                <img src="images/meiduan.png" alt="" class="lis" title="美国短毛猫">
+                <br />
+                <a href="">美国短毛猫</a>
+                <p>祖籍：美国<br>寿命：15-20年<br>性格：脾气温顺，性格活泼<br>易患病：眼睑内翻<br>价格：普通：2000-3000 纯种：5000-7000<br>赛级：8000-12000</p>
+            </li>
+            <li>
+                <img src="images/bosi.png" alt="" class="lis" title="波斯猫">
+                <br />
+                <a href="">波斯猫</a>
+                <p>祖籍：阿富汗<br>寿命：12-15年<br>性格：温文尔雅，反应灵敏，善解人意<br>易患病：泪腺重，易流眼泪<br>价格：4000-20000</p>
+            </li>
+            <li>
+                <img src="images/baomao.png" alt="" class="lis" title="豹猫">
+                <br />
+                <a href="">豹猫</a>
+                <p>祖籍：孟加拉<br>寿命:十几年<br>性格：精力充沛，有强烈好奇心<br>价格：3000+</p>
+            </li>
+            <li class="last">
+                <img src="images/senlin.png" alt="" class="lis" title="挪威森林猫">
+                <br />
+                <a href="">挪威森林猫</a>
+                <p>祖籍：挪威<br>寿命：18-20年<br>性格：内向，独立性强，喜欢冒险和活动<br>价格：8000+</p>
+            </li>
+            <li class="last">
+                <img src="images/jiafei.png" alt="" class="lis" title="加菲猫">
+                <br />
+                <a href="">加菲猫</a>
+                <p>寿命：十年左右<br>性格：十分温顺，对人亲近<br>易患病：肠胃疾病<br>价格：2000-30000</p>
+            </li>
+            <li class="last">
+                <img src="images/wumao.png" alt="" class="lis" title="无毛猫">
+                <br />
+                <a href="">无毛猫</a>
+                <p>祖籍：加拿大<br>寿命：12年左右<br>性格：性情温顺，容易训练<br>易患病：皮肤病<br>价格：4000+</p>
+            </li>
+        </ul>
+    </div>
+    <div id="d3">
+        <p class="d3">© 2019-2020 猫猫百科 版权所有 冀ICP备88888888号</p>
+    </div>
+</body>
+<script>
+    //登录表单
+    var form2 = document.getElementById("form2");
+    var login = document.getElementById("login");
+    var submit = document.getElementById("submit");
+    login.onclick=function(){
+        form2.style.display="block";
+    }
+    submit.onclick=function(){
+        form2.style.display="none";
+    }
+
+    //鼠标title移动效果
+    var lis = document.getElementsByTagName("lis");
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].onmouseover = function (e) {
+            this.myTitle = this.title;
+            this.title = "";
+            var tooltip = document.createElement("div");
+            tooltip.id = "tooltip";
+            tooltip.innerHTML = this.myTitle;
+            tooltip.style.left = e.clientX + 10 + "px";
+            tooltip.style.top = e.clientY + 10 + "px";
+            document.body.appendChild(tooltip);
+        };
+        lis[i].onmousemove = function (e) {
+            var e = e || window.event;
+            var tooltip = document.getElementById("tooltip");
+            tooltip.style.left = e.clientX + 10 + "px";
+            tooltip.style.top = e.clientY + 10 + "px";
+        };
+        lis[i].onmouseout = function() {
+            var tooltip = document.getElementById("tooltip");
+            this.title = this.myTitle;
+            document.body.removeChild(tooltip);
+        }
+    }
+
+    //轮播图
+    var slider = document.getElementById("slider");
+    var num =0;
+    var time = setInterval(function(){
+        num--;
+        slider.style.marginLeft = num+"px";
+        if(num<=-8000){
+            num=0;
+        }
+    },7)
+    // var timer;
+    // var index =0;
+    // function getStyle(obj,name){
+    // if(window.getComputedStyle){
+    //         return getComputedStyle(obj,null)[name];
+    //     }else{
+    //         return obj.currentStyle[name];
+    //     }
+    // }
+    // function move(obj,attr,target,speed,callback){
+    //     clearInterval(obj.timer);
+    //     var current = parseInt(getStyle(obj,attr));
+    //     if(current>target){
+    //         speed=-speed;
+    //     }
+    //     obj.timer=setInterval(function(){
+    //         var oldValue = parseInt(getStyle(obj,attr));
+    //         var newValue = oldValue + speed;
+    //         if(speed<0&&newValue<target||speed>0&&newValue>target){
+    //             newValue =target;
+    //         }
+    //         obj.style[attr]=newValue+"px";
+    //         if(newValue==target){
+    //             clearInterval(obj.timer);
+    //             callback&&callback();
+    //         }
+    //     },30);
+    // }
+    // window.onload=function(){
+    //     //imgList =document.getElementById("imgList");
+    //     imgArr = document.getElementsByTagName("slide");              
+    //     //nav = document.getElementById("nav");
+    //     //outer = document.getElementById("slider");
+    //     //allA =document.getElementsByTagName("a");
+    //     slider.style.width=(parseInt(getStyle(imgArr[0],"width"))+10)*imgArr.length+"px";
+    //     //nav.style.left=(outer.offsetWidth-nav.offsetWidth)/2;
+    //     // allA[index].style.backgroundColor="black";
+    //     // for(var i=0;i<allA.length;i++){
+    //     //             allA[i].num=i;
+    //     //             allA[i].onclick=function(){
+    //     //                 clearInterval(timer);
+    //     //                 index=this.num;
+    //     //                 setA();
+    //     //                 move(imgList,"left",-1000*index,20,function(){
+    //     //                     autoChange();
+    //     //                 });
+    //     //             };
+    //     // }
+    //     autoChange();
+    // }
+    // function setA(){
+    //     if(index>=imgArr.length-1){
+    //         index=0;
+    //         slider.style.left=0;
+    //     }
+    //     // for(var i=0;i<allA.length;i++){
+    //     //     allA[i].style.backgroundColor="";
+    //     //             allA[index].style.backgroundColor="black";
+    //     // }
+    // }
+    // function autoChange () {
+    //     timer = setInterval(function(){
+    //         index++;
+    //         index=index%imgArr.length;
+    //         move(slider,"left",-1920*index,20,function(){
+    //             setA();
+    //         });
+    //     },3000);
+    // }
+    
+    // var left = document.getElementById("left");
+    // var right = document.getElementById("right");
+    // var index = 0;
+    // var timer;
+    // var isMoving = false;
+    // right.onclick = next();
+    // left.onclick = prev();
+    // function next(){
+    //     if(isMoving){
+    //         return;
+    //     }
+    //     isMoving = true;
+    //     index++;
+    //     animate(slider,{left:-1920*index},function(){
+    //         if(index==1){
+    //             slider.style.left = '-1500px';
+    //             index = -1;
+    //         }
+    //         isMoving = false;
+    //     });
+    // }
+    // function prev(){
+    //     if(isMoving){
+    //         return;
+    //     }
+    //     isMoving = true;
+    //     index--;
+    //     animate(slider,{left:-1920*index},function(){
+    //         // if(index==0){
+    //         //     slider.style.left = '-4000px';
+    //         //     index = 1;
+    //         // }
+    //         isMoving = false;
+    //     });
+    // }
+    // timer = setInterval(next, 3000);
+    // function getStyle(obj, attr){
+    // if(obj.currentStyle){
+    //     return obj.currentStyle[attr];
+    // } else {
+    //     return getComputedStyle(obj, null)[attr];
+    // }
+    // }
+    // function animate(obj,json,callback){
+    //     clearInterval(obj.timer);
+    //     obj.timer = setInterval(function(){
+    //         var isStop = true;
+    //         for(var attr in json){
+    //             var now = 0;
+    //             if(attr == 'opacity'){
+    //                 now = parseInt(getStyle(obj,attr)*100);
+    //             }else{
+    //                 now = parseInt(getStyle(obj,attr));
+    //             }
+    //             var speed = (json[attr] - now) / 8;
+    //             speed = speed>0?Math.ceil(speed):Math.floor(speed);
+    //             var cur = now + speed;
+    //             if(attr == 'opacity'){
+    //                 obj.style[attr] = cur / 100;
+    //             }else{
+    //                 obj.style[attr] = cur + 'px';
+    //             }
+    //             if(json[attr] !== cur){
+    //                 isStop = false;
+    //             }
+    //         }
+    //         if(isStop){
+    //            clearInterval(obj.timer);
+    //             callback&&callback();
+    //         }
+    //     }, 30)
+    // }
+</script>
+</html>
